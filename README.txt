@@ -1,4 +1,4 @@
-Secure Hotspot Demonstration
+Hiterator test Secure Hotspot Demonstration
 
 Copyright 2013 Ruckus Wireless, Inc. All Rights Reserved
 
