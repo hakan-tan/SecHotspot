@@ -1,0 +1,1 @@
+type get-prov-file.xml | curl -k -d @- -o prov-win7.exe https://172.31.128.25/admin/_portalintf.jsp

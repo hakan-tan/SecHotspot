@@ -1,0 +1,8 @@
+<ruckus>
+    <req-password>1234567890</req-password>
+    <version>1.0</version>
+    <command cmd="generate-dpsk">
+        <dpsk expiration="24" key-length="62" user="phan" mac="00:00:00:00:00:00"
+            vlan-id="805" wlan="phan-open-dpsk" />
+    </command>
+</ruckus>

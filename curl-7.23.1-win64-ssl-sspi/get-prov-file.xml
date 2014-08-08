@@ -1,0 +1,7 @@
+<ruckus>
+	<req-password>1234567890</req-password>
+	<version>1.0</version>
+	<command cmd="get-prov-file" ipaddr="" macaddr="00:00:00:00:00:00" username="phan" platform="win61" version="" user-agent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)">
+		<wlansvc name="phan-open-dpsk" expiration="168" key-length="24" vlan-id="805" />
+	</command>
+</ruckus>

@@ -1,0 +1,5 @@
+<ruckus>
+	<req-password>0102030405</req-password>
+	<version>1.0</version>
+	<command cmd="get-client" macaddr="00:25:9c:01:19:65" username="" />
+</ruckus>

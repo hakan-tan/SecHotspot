@@ -1,0 +1,65 @@
+<!-- Secure Hotspot Captive Portal Login Page Example -->
+<!-- Unauthorized clients should be redirected here first. -->
+
+<html>
+<!--
+<div id="border" style="width:850px;height:1000px;border:1px solid gray;">
+-->
+<title>Welcome to the public Wi-Fi network</title>
+
+<body>
+
+<!-- Files containing JavaScript functions -->
+<script type="text/javascript" src="hotspot.js"></script>
+
+<!-- Login -->
+<div id="login">
+
+<script type="text/javascript">hotspot_login_form()</script>
+<center>
+<p align=center>
+<img src="images/RuckusLogo.jpg" width=300 align="center">
+<h2>Welcome to the public Wi-Fi network</h2>
+<br>
+
+<p>You must login before wireless access is granted.</p>
+<br>
+<div id="terms" style="width:600px;height:200px;border:6px double orange;">
+
+<h3>Terms and Conditions</h3><br>
+With great power comes great responsibility.<br>
+Do no harm.<br>
+Love one another.<br>
+Eat more fruit and vegetables.<br>
+</div id="terms">
+
+<p>Clicking the "I Agree" button indicates you agree to the terms and conditions of wireless usage.</p>
+<br><br>
+
+Username:<input type="text" name="username" size="20" maxlength="128">
+Password:<input type="password" name="password" size="20" maxlength="128">
+<input type="submit" name="button" value="I Agree">
+</center>
+</form>
+</div>
+
+</center>
+</div>
+<!--
+<script type="text/javascript">update_display()</script>
+-->
+<!-- End -->
+
+
+<!-- Check if there are any messages to display. These are usually errors such as "login failed" -->
+<center><script type="text/javascript">message();</script></center>
+
+
+<br><br><br>
+<!--
+</div id="border">
+-->
+
+</body>
+</html>
+

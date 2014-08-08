@@ -1,0 +1,5 @@
+<ruckus>
+	<req-password>1234567890</req-password>
+	<version>1.0</version>
+	<command cmd="del-user" ipaddr="172.31.46.228" macaddr="00:24:d7:11:99:44" />
+</ruckus>
