@@ -18,6 +18,9 @@
 # 	authRespCodeList[]
 #	dpskRespCodeList[]
 
+
+
+
 from subprocess import Popen
 from xml.dom import minidom
 import cgi     
